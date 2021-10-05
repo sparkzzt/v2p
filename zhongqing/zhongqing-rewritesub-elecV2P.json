@@ -7,52 +7,52 @@
   "rewrite": [
     {
       "match": "^https?://ios\\.baertt\\.com/v5/article/complete",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js",
       "enable": false
     },
     {
       "match": "^https?://ios\\.baertt\\.com/v5/user/app_stay\\.json",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js",
       "enable": false
     },
     {
       "match": "^https?://\\w+\\.youth\\.cn/(TaskCenter|WebApi/NewTaskIos)/(sign|getSign)(\\?.+)?$",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com/v5/article/(info/get|info|detail)\\.json",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js",
       "enable": false
     },
     {
       "match": "https:\\/\\/kandian\\.wkandian\\.com\\/v5\\/user\\/stay\\.json",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth.js?token=AV5VOAVSLSR25KEKU5OGDBDBLR23U",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth.js",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com\\/v5\\/task/browse_start\\.json",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com/v5/Nameless/adlickstart\\.json",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js",
       "enable": false
     },
     {
       "match": "https:\\/\\/kandian\\.wkandian\\.com\\/v5\\/\\w+\\/withdraw\\d?\\.json",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth.js?token=AV5VOAVSLSR25KEKU5OGDBDBLR23U",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth.js",
       "enable": false
     },
     {
       "match": "^https://kd\\.youth\\.cn/WebApi/NewTaskIos/getTaskList",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com/v5/user/app_stay\\.json",
-      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js",
       "enable": false
     }
     
