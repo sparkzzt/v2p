@@ -1,0 +1,28 @@
+{
+  "name": "中青elecV2P 定时任务订阅",
+  "author": "留个名字",
+  "desc": "导出的任务订阅。版本202，该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
+  "date": "2021-10-06 00:52:59",
+  "list": [
+    {
+      "name": "腾讯自选股",
+      "type": "cron",
+      "time": "30 16 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sparkzzt/v2p/main/txzixuangu/txstockqx.js"
+      },
+      "running": false
+    },
+    {
+      "name": "自选股长牛",
+      "type": "cron",
+      "time": "30 20 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sparkzzt/v2p/main/txzixuangu/txstockcow.js"
+      },
+      "running": false
+    }
+  ]
+}
