@@ -1,124 +1,60 @@
 {
-  "name": "elecV2P 重写订阅",
-  "author": "留个名字 elecV2",
-  "note": "xx 导出的重写规则。该订阅目前仅适用于 elecV2P。更多说明请查看: https://github.com/elecV2/elecV2P-dei/tree/master/docs/05-rewrite.md",
+  "name": "中青的elecV2P 重写订阅",
+  "author": "suzhq",
+  "note": "做这个订阅为了固话版本，版本为202， 导出的重写规则。该订阅目前仅适用于 elecV2P。更多说明请查看: https://github.com/elecV2/elecV2P-dei/tree/master/docs/05-rewrite.md",
   "date": "2021-10-05 23:37:54",
   "mitmhost": ["kd.youth.cn","ios.baertt.com","kandian.wkandian.com","script.baertt.co","*.youth.cn","kandian.youth.cn"],
   "rewrite": [
     {
       "match": "^https?://ios\\.baertt\\.com/v5/article/complete",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
       "enable": false
     },
     {
       "match": "^https?://ios\\.baertt\\.com/v5/user/app_stay\\.json",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
       "enable": false
     },
     {
       "match": "^https?://\\w+\\.youth\\.cn/(TaskCenter|WebApi/NewTaskIos)/(sign|getSign)(\\?.+)?$",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com/v5/article/(info/get|info|detail)\\.json",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js",
-      "enable": false
-    },
-    {
-      "match": "https:\\/\\/kd\\.youth\\.cn\\/WebApi\\/NewTaskIos\\/getTaskList",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js",
-      "enable": false
-    },
-    {
-      "match": "https:\\/\\/ios\\.baertt\\.com\\/v5\\/article\\/info\\/get\\.json",
-      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js",
-      "enable": false
-    },
-    {
-      "match": "https:\\/\\/ios\\.baertt\\.com\\/v5\\/user\\/stay\\.json",
-      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js",
-      "enable": false
-    },
-    {
-      "match": "https:\\/\\/ios\\.baertt\\.com\\/v5\\/task\\/browse_start\\.json",
-      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js",
-      "enable": false
-    },
-    {
-      "match": "https:\\/\\/ios\\.baertt\\.com\\/v5\\/Nameless\\/adlickstart\\.json",
-      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js",
-      "enable": false
-    },
-    {
-      "match": "https:\\/\\/kandian\\.wkandian\\.com\\/v5\\/article\\/info\\.json",
-      "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js?token=AV5VOAXJD2CV4J56PE62SO3BLR3LG",
       "enable": false
     },
     {
       "match": "https:\\/\\/kandian\\.wkandian\\.com\\/v5\\/user\\/stay\\.json",
-      "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth.js?token=AV5VOAVSLSR25KEKU5OGDBDBLR23U",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com\\/v5\\/task/browse_start\\.json",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com/v5/Nameless/adlickstart\\.json",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
       "enable": false
     },
     {
       "match": "https:\\/\\/kandian\\.wkandian\\.com\\/v5\\/\\w+\\/withdraw\\d?\\.json",
-      "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth.js?token=AV5VOAVSLSR25KEKU5OGDBDBLR23U",
       "enable": false
     },
     {
       "match": "^https://kd\\.youth\\.cn/WebApi/NewTaskIos/getTaskList",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
       "enable": false
     },
     {
       "match": "^https?://(ios\\.baertt|kandian\\.wkandian)\\.com/v5/user/app_stay\\.json",
-      "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js",
-      "enable": false
-    },
-    {
-      "match": "https://wzq.tenpay.com/activity/page/welwareCenter/",
-      "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js",
-      "enable": false
-    },
-    {
-      "match": "https://wzq.tenpay.com/resources/vtools",
-      "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js",
-      "enable": false
-    },
-    {
-      "match": "https://wzq.tenpay.com/cgi-bin/activity_usercenter.fcgi?",
-      "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js",
-      "enable": false
-    },
-    {
-      "match": "https://zqact.tenpay.com/cgi-bin/open_stockinfo.fcgi?",
-      "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js",
-      "enable": false
-    },
-    {
-      "match": "https://zqact.tenpay.com/cgi-bin/shop.fcgi?",
-      "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js",
-      "enable": false
-    },
-    {
-      "match": "https://wzq.tenpay.com/cgi-bin/redpoint.fcgi?",
-      "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js",
-      "enable": false
-    },
-    {
-      "match": "https://zqact03.tenpay.com/activity/page/raisebull/",
-      "target": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js",
+      "target": "https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js?token=AV5VOATLI2IEJWIKPSL3GVTBLR3DY",
       "enable": false
     }
+    
   ]
 }
