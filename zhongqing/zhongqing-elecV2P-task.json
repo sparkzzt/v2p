@@ -1,0 +1,38 @@
+{
+  "name": "中青elecV2P 定时任务订阅",
+  "author": "留个名字",
+  "desc": "导出的任务订阅。版本202，该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
+  "date": "2021-10-06 00:52:59",
+  "list": [
+    {
+      "name": "中青看点极速版",
+      "type": "cron",
+      "time": "*/30 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth.js"
+      },
+      "running": false
+    },
+    {
+      "name": "中青看点看看赚&浏览赚(需配合专用重写获取cookie)",
+      "type": "cron",
+      "time": "30 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js"
+      },
+      "running": false
+    },
+    {
+      "name": "中青阅读",
+      "type": "cron",
+      "time": "*/30 * 1-6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/zqread.js"
+      },
+      "running": false
+    }
+  ]
+}
