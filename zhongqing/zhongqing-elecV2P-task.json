@@ -17,7 +17,7 @@
     {
       "name": "中青看点看看赚&浏览赚(需配合专用重写获取cookie)",
       "type": "cron",
-      "time": "30 6 * * *",
+      "time": "30 6,13 * * *",
       "job": {
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/sparkzzt/v2p/main/zhongqing/youth_banner.js"
