@@ -363,7 +363,7 @@
     {    
       "id": "dt",
       "name": "读特",
-      "keys": ["dturl","dturl2","dturl3","dturl4","dturl5"],
+      "keys": ["dturl","dturl2","dturl3","dturl4","dturl5","dturl6","dturl7","dturl8","dturl9","dturl10","dturl11","dturl12","dturl13"],
       "author": "@tom",
       "settings": [{
         "id": "dtSuffix",
