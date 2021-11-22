@@ -573,6 +573,27 @@
             "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.js"
         },
     {
+            "id":"qhbdspapp",
+            "name":"趣红包短视频",
+            "keys":[
+                "qhbdspapp", "qhbdspapp1", "qhbdspapp2", "qhbdspapp3", "qhbdspapp4", "qhbdspapp5", "qhbdspapp6", "qhbdspapp7", "qhbdspapp8"
+            ],
+            "settings": [{
+                "id": "qhbdspuserck",
+                "name": "当前账号",
+                "val": "1",
+                "type": "number",
+                "desc": "当前账号对应"
+            }],
+            "author":"@David",
+            "repo":"https://github.com/bluesmallpig/scripts",
+            "icons":[
+                "https://github.com/bluesmallpig/scripts/blob/main/img/qhbapp-mini.png?raw=true",
+                "https://github.com/bluesmallpig/scripts/blob/main/img/qhbapp.png?raw=true"
+            ],
+            "script":"https://github.com/"
+        },
+    {
       "id": "txstockapp",
       "name": "自选羊毛股",
       "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cash","cashheader"],
