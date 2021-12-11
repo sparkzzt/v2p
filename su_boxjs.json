@@ -427,6 +427,20 @@
         "https://cdn.jsdelivr.net/gh/NANXIAO1971/ceshi@main/picture/jckd1.png"  
       ]
     },
+	  
+	{
+      "id": "ksjs",
+      "name": "中青、晶彩、天气",
+      "keys": [
+        "kshd"
+      ], 
+      "repo": "",  
+      "script": "", 
+       
+      "icons": [ 
+          
+      ]
+    },
     
 
     {
