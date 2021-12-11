@@ -516,6 +516,32 @@
             "script":"https://github.com/"
         },
     {
+            "id":"dzlapp",
+            "name":"多走路",
+            "keys":[
+                "dzlapp"	
+            ],
+            "settings": [
+	    {
+                "id": "dzluserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }
+	    
+	    ],
+            "author":"@David",
+            "repo":"https://github.com/bluesmallpig/scripts",
+            "icons":[
+                "https://github.com/bluesmallpig/scripts/blob/main/img/dzl-mini.png?raw=true",
+                "https://github.com/bluesmallpig/scripts/blob/main/img/dzl.png?raw=true"
+            ],
+            "script":"https://github.com/"
+        },
+    
+    
+    {
       "id": "txstockapp",
       "name": "自选羊毛股",
       "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey","cash","cashheader"],
